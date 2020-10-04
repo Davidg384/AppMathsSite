@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans&family=Ubuntu&display=swap');
+body {
+    background: #919191;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', 'PT Sans','Nunito', sans-serif;
+}
