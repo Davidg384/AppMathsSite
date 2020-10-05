@@ -5,3 +5,15 @@ body {
     margin: 0;
     font-family: 'Ubuntu', 'PT Sans','Nunito', sans-serif;
 }
+
+#footer { 
+    position: fixed; 
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    /* Height of the footer*/  
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+} 
