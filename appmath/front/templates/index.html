@@ -1,13 +1,17 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block title %}
     AppMaths | Home
 {% endblock %}
 
-
 {% block content %}
     <div class="home-page-container">
+        <div id="typewrite-container">
+            <span id="terminal-container"><span id="user-terminal">david@AppMaths</span>:<span id="dir-terminal">~<span style="color: white;">$</span></span></span>
+            <div id="text"></div><div id="cursor"></div>
+        </div>
+
+
         <img src="{% static 'images/home-stock-photo.png' %}" class="home-page-stock-photo">
     </div>
 {% endblock %}
